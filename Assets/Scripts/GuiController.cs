@@ -2,16 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+
 
 public class GuiController : MonoBehaviour
 {
-    public float startTime;
-    public float currentTime;
-    public float bestTime;
+    public static float startTime;
+    public static float currentTime;
+    public static float bestTime;
 
-    public Text timerText;
-    public Text bestTimeText;
+    public TMP_Text timerText;
+    public TMP_Text bestTimeText;
     // Start is called before the first frame update
     void Start()
     {
